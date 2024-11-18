@@ -1,8 +1,8 @@
 <?php
 $bd_host = "localhost";
 $bd_usuario = "root";
-$bd_password = "sena";
-$bd_base = "digiworm_04";
+$bd_password = "sinco";
+$bd_base = "digiworm";
 
 $con = mysqli_connect($bd_host, $bd_usuario, $bd_password, $bd_base);
 

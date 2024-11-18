@@ -73,6 +73,13 @@ if(isset($_SESSION['Idusuario'])) {
             border-radius: 5px;
             cursor: pointer;
         }
+        .principal-link {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            border-radius: 120px;
+            text-decoration: none;
+        }
     </style>
 </head>
 

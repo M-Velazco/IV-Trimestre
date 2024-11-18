@@ -50,7 +50,7 @@ $rol_usuario = $objUsuarios->obtenerRolUsuario($_SESSION['Idusuario']);
 $idUsuario = $_SESSION['Idusuario'];
 
 // Conexión a la base de datos
-$conexion = new mysqli("localhost", "root", "sena", "digiworm_04");
+$conexion = new mysqli("localhost", "root", "sinco", "digiworm");
 
 // Verificar la conexión
 if ($conexion->connect_error) {
