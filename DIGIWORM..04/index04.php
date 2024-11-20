@@ -741,7 +741,7 @@ curl_close($curl);
             </div>
 
             <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Testimonio</h3>
+                <h3 class="text-primary mb-4">Testimonio Usuario</h3>
                 <form action="validacion/opinion.php" method="POST" >
                     <div class="form-group">
                         <input type="text" class="form-control border-0 py-4" name="Nombres_Apellidos" id="Nombres_Apellidos" placeholder="Nombres y Apellidos" required="required" />
