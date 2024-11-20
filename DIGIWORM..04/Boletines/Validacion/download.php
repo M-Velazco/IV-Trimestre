@@ -5,7 +5,7 @@ if(isset($_GET['idBoletin'])) {
     $idActividad = $_GET['idBoletin'];
 
     // Conectar a la base de datos
-    $conexion = new mysqli("localhost", "root", "sena", "digiworm_04");
+    $conexion = new mysqli("localhost", "root", "sinco", "digiworm");
     if ($conexion->connect_error) {
         die("Error de conexión: " . $conexion->connect_error);
     }
